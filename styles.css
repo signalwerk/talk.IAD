@@ -5,6 +5,7 @@ html {
 em {
   color: yellow;
   font-style: normal;
+  font-weight: bold;
 }
 
 p strong,
@@ -15,6 +16,8 @@ li strong {
 
 p {
   font-size: 1rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.2rem;
 }
 
 H1 strong,
@@ -51,6 +54,8 @@ H3 strong {
 .layout-image > div {
   position: relative;
   height: 100vh;
+  padding-right: 2rem;
+  padding-left: 2rem;
 }
 .layout-image > div img {
   width: 100%;

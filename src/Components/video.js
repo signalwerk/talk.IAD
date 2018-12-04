@@ -5,6 +5,7 @@ export default ({ src, autoPlay, loop }) => (
   <video
     style={{
       width: "100%",
+      height: "110vh",
       objectFit: "cover"
     }}
     autoPlay
