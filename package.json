@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mdx-deck build deck.mdx",
+    "build": "mdx-deck build deck.mdx && cp styles.css dist",
     "start": "mdx-deck deck.mdx"
   },
   "author": "Stefan Huber",
